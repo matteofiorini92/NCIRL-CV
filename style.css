@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial';
+}
+
+.section-heading {
+    text-shadow: 1px 1px lightseagreen;
+}
+
+.job-title, .education-title {
+    margin-top: 3%;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+#table-of-contents {
+    list-style-type: circle;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+    }
+
+    .container {
+        justify-content: space-around;
+    }
+
+}
+
